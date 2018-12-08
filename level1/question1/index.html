@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript - MA03 - Question 1</title>
+    <link rel="stylesheet" href="styles.css">
 <body>
 
 <!--Contact Form-->
+<div class="container1">
 
+<form novalidate>
+  <label for="fName"> First Name </label>
+  <input type="text" id="firstNameField" pattern="\w+" name="First Name" placeholder="Write your first name here..." required>
+
+  <label for="lName"> Last Name </label>
+  <input type="text" id="lastNameField" pattern="\w+" name="Last Name" placeholder="Write your last name here..." required>
+
+  <label for="tel"> Telephone Number </label>
+  <input type="tel" id="tel" pattern="[0-9]{8}?" name="Phone Number" placeholder="Write your last name here..." required>
+
+  <label for="emailField"> Email </label>
+  <input type="emailField" id="emailField" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" name="Email Address" placeholder="Write your email here..." required>
+
+    <button type="button" id="submit"> Send </button>
+
+</form>
+
+</div>
 
 <script src="script.js"></script>
 </body>
