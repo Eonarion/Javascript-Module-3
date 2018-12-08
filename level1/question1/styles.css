@@ -1,0 +1,19 @@
+.container1 {
+  display: block;
+  width: 260px;
+  border: 2px solid black;
+  margin: 200px;
+  padding: 20px;
+}
+
+label {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+  font-size: 17px;
+}
